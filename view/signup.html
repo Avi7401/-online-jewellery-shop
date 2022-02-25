@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        login
+    </title>
+<style>
+form
+{
+  text-align: center;
+  margin-top: 200px;
+  margin-right:500px;
+  margin-left:500px;
+    
+}
+.name
+{
+    padding: 5%;
+    margin-top: 10px;
+}
+.password
+{
+    padding: 5%;
+    margin-top: 10px;
+}
+.email
+{
+    padding: 5%;
+    margin-top: 10px;
+}
+.button1
+{
+    padding:10px;
+    
+  
+   
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right:60px;
+    margin-left: 75px;
+    margin-bottom: 5px;
+    background-color:white;
+    border: none;
+    
+
+}
+.button2
+{
+    padding:10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right:60px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+    border:none;
+}
+
+.button1:hover
+{
+    background-color: rgb(92, 92, 204);
+    height:45px;
+    width:60px;
+}
+.button2:hover
+{
+    background-color: rgb(92, 92, 204);
+    height:45px;
+    width:60px;
+}
+.name:hover
+{
+    height:60%;
+    width:60%;
+
+}
+.password:hover
+{
+    height:60%;
+    width:60%;
+
+}
+form:hover
+{
+    background-color: cornflowerblue;
+}
+.email:hover
+{
+    height:60%;
+    width:60%;
+
+}
+
+</style>
+</head>
+<body>
+    <form style=" border:2px solid black; " action="saveuser" method="post">
+        <input type="text" name="name" placeholder="UserName" class="name">
+        <br>
+        <input type="email" name="email" placeholder="Email" class="email">
+        <br>
+        <input type="password" name="password" placeholder="Password" class="password">
+        <br>
+        <input type="submit" value="submit"  class="button1">
+        <input type="button" value="signUp" class="button2">
+    </form>
+</body>
